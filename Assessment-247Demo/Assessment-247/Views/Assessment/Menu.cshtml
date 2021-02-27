@@ -1,0 +1,18 @@
+﻿
+
+<h2>Let me take your Order!</h2>
+<form asp-action="Order">
+
+    Name: <input type="text" name="name" />
+    <br />
+    Calories: <input type="text" name="calories" />
+    <br />
+    Ingredient 1: <input type="text" name="ingre1" />
+    <br />
+    Ingredient 2: <input type="text" name="ingre2" />
+    <br />
+
+    <input type="submit" value="Order" />
+</form>
+
+@ViewBag.yourOrder
